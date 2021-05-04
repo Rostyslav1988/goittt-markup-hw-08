@@ -1,0 +1,33 @@
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0 auto;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+}
+
+ul {
+    font-style: normal;
+    color: var(--color-text);
+}
+.list {
+        text-decoration: none;
+}

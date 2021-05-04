@@ -1,0 +1,586 @@
+
+.foter-social {
+
+    margin: 0 auto;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.social--section {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+footer{
+    background-color: #2F303A;;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.padding-footer {
+    justify-content: space-between;
+    text-align: center;
+}
+.logo-footer {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    margin-bottom: 20px;
+}
+.pad-foter-top {
+    margin-top: 20px;
+}
+.adress-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    margin-bottom: 9px;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+.redact {
+    padding-left: 0;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.pad {
+    margin-bottom: 9px;
+}
+.mail-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.margin-fot-social {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.welcom {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .social--section>li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .b-radius2 {
+    fill: var(--white);
+background: rgba(255, 255, 255, 0.1);;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%; 
+transition: 250ms;
+
+&:hover,
+&:focus {
+    background: var(--focus-color);
+}
+}
+
+
+
+.footer-form-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+    align-items: center;
+justify-content: center;
+display: flex;
+    }
+    .form-input-footer {
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+        .footer-form-email {
+    
+        width: 450px;
+        height: 50px;
+        background: var(--background-color);
+        outline: none;
+        
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        
+        color: var(--white);
+        
+        padding-left: 16px;
+        padding: 15px; 
+        
+        &::placeholder {
+        color: rgba(117, 117, 117, 0.5);
+        }
+        }
+        
+       
+.footer-form-button {
+background: var(--focus-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+outline: none;
+border: none;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--white);
+margin-left: 0px;
+padding-left: 29px;
+cursor: pointer;
+margin-top: 30px;
+}
+.airplane {
+padding-left: 10px;
+width: 30px;
+height: 30px;
+}
+.cret{
+    display: flex;
+    align-content: center;
+justify-content: center;
+flex-direction: column;
+}
+.footer-form{
+    margin-top: 60px;
+}
+@media screen and (min-width:768px){
+    footer{
+        background-color: #2F303A;;
+    }
+    .foter-social {
+
+        margin: 0 auto;
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    footer{
+        background-color: #2F303A;;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--background-color);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+
+    .padding-footer {
+        justify-content: space-between;
+        text-align: center;
+    }
+    .logo-footer {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--background-color);
+        margin-bottom: 20px;
+    }
+    .pad-foter-top {
+        margin-top: 20px;
+    }
+    .adress-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--white);
+        margin-bottom: 9px;
+    }
+    a {
+        text-decoration: none;
+        font-style: normal;
+    }
+    .redact {
+        padding-left: 0;
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
+    .pad {
+        margin-bottom: 9px;
+    }
+    .mail-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .mail-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .tel-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .margin-fot-social {
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    .welcom {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--white);
+        margin-bottom: 20px;
+        text-align: center;
+        }
+        .social--section>li:not(:last-child) {
+            margin-right: 10px;
+        }
+        .b-radius2 {
+        fill: var(--white);
+    background: rgba(255, 255, 255, 0.1);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    transition: 250ms;
+    
+    &:hover,
+    &:focus {
+        background: var(--focus-color);
+    }
+    }
+    
+
+    
+    .footer-form-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--white);
+        margin-bottom: 20px;
+        align-items: center;
+    justify-content: center;
+    display: flex;
+        }
+        .form-input-footer {
+            display: flex;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+            .footer-form-email {
+        
+            width: 450px;
+            height: 50px;
+            background: var(--background-color);
+            outline: none;
+            
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-sizing: border-box;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            
+            color: var(--white);
+            
+            padding-left: 16px;
+            padding: 15px; 
+            
+            &::placeholder {
+            color: rgba(117, 117, 117, 0.5);
+            }
+            }
+            
+           
+    .footer-form-button {
+    background: var(--focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: var(--white);
+    margin-left: 0px;
+    padding-left: 29px;
+    cursor: pointer;
+    margin-top: 30px;
+    }
+    .airplane {
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    }
+    .cret{
+        display: flex;
+        align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+    .footer-form{
+        margin-top: 60px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    .footer-form{
+        margin-top: 0px;
+    }
+    footer{
+        background-color: #2F303A;;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--background-color);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+    .foter-social {
+        display: flex;
+        margin: 0 auto;
+        width: 1200px;
+
+        padding-top: 94px;
+        padding-bottom: 94px;
+justify-content: center;
+    }
+    .padding-footer {
+        justify-content: space-between;
+        text-align: start;
+    }
+    .logo-footer {
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--background-color);
+        margin-bottom: 20px;
+    }
+    .pad-foter-top {
+        margin-top: 20px;
+    }
+    .adress-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--white);
+        margin-bottom: 9px;
+    }
+    a {
+        text-decoration: none;
+        font-style: normal;
+    }
+    .redact {
+        padding-left: 0;
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
+    .pad {
+        margin-bottom: 9px;
+    }
+    .mail-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .mail-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .tel-footer {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .margin-fot-social {
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    .welcom {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--white);
+        margin-bottom: 20px;
+        text-align: start;
+        }
+        .social--section>li:not(:last-child) {
+            margin-right: 10px;
+        }
+        .b-radius2 {
+        fill: var(--white);
+    background: rgba(255, 255, 255, 0.1);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    transition: 250ms;
+    
+    &:hover,
+    &:focus {
+        background: var(--focus-color);
+    }
+    }
+    
+    .footer-form {
+  
+        margin-left: 104px;
+    }
+    
+    .footer-form-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--white);
+        margin-bottom: 20px;
+        align-items: center;
+    justify-content: flex-start;
+    display: flex;
+        }
+        .form-input-footer {
+            display: flex;
+            flex-direction: row;
+        }
+            .footer-form-email {
+            width: 358px;
+            height: 50px;
+            background: var(--background-color);
+            outline: none;
+            
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-sizing: border-box;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            
+            color: var(--white);
+            
+            padding-left: 16px;
+            padding: 15px; 
+            
+            &::placeholder {
+            color: rgba(117, 117, 117, 0.5);
+            }
+            }
+            
+           
+    .footer-form-button {
+    background: var(--focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 0px;
+    color: var(--white);
+    margin-left: 12px;
+    padding-left: 29px;
+    cursor: pointer;
+    }
+    .airplane {
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    }
+    .cret{
+        display: flex;
+    }
+}
+
