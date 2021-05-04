@@ -563,7 +563,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/icons2/main-mobil/headerimg.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-mobil/headerimg.png);
   max-width: 480px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -575,7 +575,7 @@ header {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .sect {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/icons2/main-mobil/headerimg@2x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-mobil/headerimg@2x.png);
   }
 }
 
@@ -624,7 +624,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/icons2/main-planshet/headerimg.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-planshet/headerimg.png);
     max-width: 768px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -637,7 +637,7 @@ header {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .sect {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/icons2/main-planshet/headerimg@2x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-planshet/headerimg@2x.png);
   }
 }
 
@@ -700,7 +700,7 @@ header {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .sect {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/icons2/main-planshet/headerimg.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/icons2/main-planshet/headerimg.png);
   }
 }
 
