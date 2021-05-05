@@ -686,7 +686,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/Img.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/img.png);
     max-width: 1600px;
     background-repeat: no-repeat;
     height: 600px;
